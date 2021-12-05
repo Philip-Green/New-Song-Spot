@@ -30,10 +30,10 @@ public class PlaylistExample : MonoBehaviour
 
 
         var go = new GameObject();
-        go.AddComponent<Playlist>();
+        go.AddComponent<PlayList>();
         go.name = "Playlist";
 
-        playlist = go.GetComponent<Playlist>();
+        playlist = go.GetComponent<PlayList>();
 
         playlist.playListSongs = songs;
 
