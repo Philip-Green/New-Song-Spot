@@ -1224,3 +1224,32 @@ System memory in use after: 251.9 MB.
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4310.
 Total: 4.270095 ms (FindLiveObjects: 0.582212 ms CreateObjectMapping: 0.382680 ms MarkObjects: 3.215718 ms  DeleteObjects: 0.088217 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014206 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.706 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3714 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 251.8 MB.
+System memory in use after: 252.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4313.
+Total: 4.840715 ms (FindLiveObjects: 0.619914 ms CreateObjectMapping: 0.502775 ms MarkObjects: 3.656201 ms  DeleteObjects: 0.060358 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 407.874508 seconds.
+  path: Assets/MusicWallpaper1.jpg
+  artifactKey: Guid(03e7b46834c2643ac9d0f93b1661c398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MusicWallpaper1.jpg using Guid(03e7b46834c2643ac9d0f93b1661c398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f43476074380bd3eb3eac6e428cb5f8') in 0.093865 seconds
+  Import took 0.107429 seconds .
+
