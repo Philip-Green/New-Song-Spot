@@ -21,9 +21,11 @@ public class CameraScript : MonoBehaviour
         if (oldPosition == Input.mousePosition)
             return;
         Vector3 pos = Camera.main.ScreenToViewportPoint(oldPosition - Input.mousePosition);
-        Vector3 move = new Vector3(pos.x * dragSpeed, 0, pos.y * dragSpeed);
+        Vector3 move = new Vector3(0, 0, pos.y * dragSpeed);
 
         transform.Translate(move, Space.World);
         oldPosition = Input.mousePosition;
+
+      
     }
 }

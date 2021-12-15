@@ -2333,7 +2333,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.000061, y: 122}
+  m_AnchoredPosition: {x: 34, y: 122}
   m_SizeDelta: {x: 791.6, y: 254.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &37399754
@@ -2369,7 +2369,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Album 1
+  m_Text: Channel Orange
 --- !u!222 &37399755
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22094,7 +22094,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.000061, y: 122}
+  m_AnchoredPosition: {x: 9.000061, y: 192}
   m_SizeDelta: {x: 791.6, y: 254.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &595278953
@@ -22130,7 +22130,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Album 1
+  m_Text: Toys in the Attic
 --- !u!222 &595278954
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22173,7 +22173,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.000061, y: 166}
+  m_AnchoredPosition: {x: 9.000061, y: 218}
   m_SizeDelta: {x: 791.6, y: 254.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &596935614
@@ -22209,7 +22209,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Album2
+  m_Text: Slime Season 3
 --- !u!222 &596935615
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27796,7 +27796,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.000061, y: 166}
+  m_AnchoredPosition: {x: 9.000061, y: 204}
   m_SizeDelta: {x: 791.6, y: 254.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &766126708
@@ -27832,7 +27832,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Album2
+  m_Text: Donuts
 --- !u!222 &766126709
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37584,7 +37584,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.000061, y: 166}
+  m_AnchoredPosition: {x: 9.000061, y: 190}
   m_SizeDelta: {x: 791.6, y: 254.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1098317131
@@ -37620,7 +37620,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Album2
+  m_Text: Thriller
 --- !u!222 &1098317132
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47620,7 +47620,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Album 1
+  m_Text: TPAB
 --- !u!222 &1332656349
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -52809,7 +52809,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.000061, y: 122}
+  m_AnchoredPosition: {x: 9.000061, y: 260}
   m_SizeDelta: {x: 791.6, y: 254.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1504354075
@@ -52845,7 +52845,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Album 1
+  m_Text: Because the Internet
 --- !u!222 &1504354076
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -58647,7 +58647,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.000061, y: 166}
+  m_AnchoredPosition: {x: 9.000061, y: 214}
   m_SizeDelta: {x: 791.6, y: 254.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1692332192
@@ -58683,7 +58683,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Album2
+  m_Text: Nothing Was the Same
 --- !u!222 &1692332193
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -67726,7 +67726,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Album 1
+  m_Text: Ramones
 --- !u!222 &1922124880
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -75636,7 +75636,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Album2
+  m_Text: Graduation
 --- !u!222 &2131698542
 CanvasRenderer:
   m_ObjectHideFlags: 0
