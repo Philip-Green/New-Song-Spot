@@ -27,37 +27,27 @@ public class AudioManager : MonoBehaviour
         source = GetComponent<AudioSource>();
 
         //play music
-        PlayMusic();
+        //PlayMusic();
 
-        IEnumerator WaitForMusicEnd()
-        {
-            while (source.isPlaying)
-            {
-                playTime = (int)source.time;
-                ShowPlayTime();
-                yield return null;
-
-            }
-
-            NextTitle();
-        }
-        
-        void ShowPlayTime()
-        {
-            seconds = playTime % 60;
-            minutes = (playTime / 60) % 60;
-            clipTimeText.text = minutes + ":" + seconds.ToString("D2") + "/" + ((fullLength / 60) % 60);
-        }
-    
-    
-    
-    
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    IEnumerator WaitForMusicToEnd()
+    {
+        while (source.isPlaying)
+        {
+            playTime = (int)source.time;
+            ShowPlayTime();
+            yield return null;
+
+        }
+
+        NextTitle();
     }
 
     public void PlayMusic()
@@ -71,17 +61,7 @@ public class AudioManager : MonoBehaviour
         {
             currentTrack = musicClips.Length - 1;
         }
-        StartCoroutine(waitForMusictoEnd());
-    }
-
-    IEnumerator waitForMusictoEnd()
-    {
-        while (source.isPlaying)
-        {
-            yield return null;
-
-        }
-        NextTitle();
+        StartCoroutine(WaitForMusicToEnd());
     }
 
     public void NextTitle()
@@ -96,7 +76,7 @@ public class AudioManager : MonoBehaviour
         source.Play();
 
         //show title
-        StartCoroutine(waitForMusictoEnd());
+        StartCoroutine(WaitForMusicToEnd());
     }
 
     public void PreviousTitle()
@@ -111,16 +91,22 @@ public class AudioManager : MonoBehaviour
         source.Play();
 
         //show title
-        StartCoroutine(waitForMusictoEnd());
+        StartCoroutine(WaitForMusicToEnd());
     }
     public void StopMusic()
     {
         //StopAllCoroutines;
-        StopCoroutine("waitForMusictoEnd");
+        StopCoroutine(WaitForMusicToEnd());
         source.Stop();
     }
     public void MuteMusic()
     { 
         source.mute = !source.mute;
+    }
+    public void ShowPlayTime()
+    {
+        seconds = playTime % 60;
+        minutes = (playTime / 60) % 60;
+        clipTimeText.text = minutes + ":" + seconds.ToString("D2") + "/" + ((fullLength / 60) % 60);
     }
 }
