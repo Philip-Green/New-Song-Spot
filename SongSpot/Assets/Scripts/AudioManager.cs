@@ -11,6 +11,14 @@ public class AudioManager : MonoBehaviour
     public AudioClip[] musicClips;
     private int currentTrack;
     private AudioSource source;
+    
+    public Text clipTitleText;
+    public Text clipTimeText;
+
+    private int fullLength;
+    private int playTime;
+    private int seconds;
+    private int minutes;
 
 
     // Start is called before the first frame update
@@ -20,6 +28,30 @@ public class AudioManager : MonoBehaviour
 
         //play music
         PlayMusic();
+
+        IEnumerator WaitForMusicEnd()
+        {
+            while (source.isPlaying)
+            {
+                playTime = (int)source.time;
+                ShowPlayTime();
+                yield return null;
+
+            }
+
+            NextTitle();
+        }
+        
+        void ShowPlayTime()
+        {
+            seconds = playTime % 60;
+            minutes = (playTime / 60) % 60;
+            clipTimeText.text = minutes + ":" + seconds.ToString("D2") + "/" + ((fullLength / 60) % 60);
+        }
+    
+    
+    
+    
     }
 
     // Update is called once per frame
